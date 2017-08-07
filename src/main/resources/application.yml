@@ -1,0 +1,29 @@
+#server:
+#  port: 8081
+#
+#spring: 
+#  application: 
+#    name: student-management
+#  cloud:
+#    config:
+#      uri: http://localhost:8888/
+#      label: master
+#      profile: dev
+
+#service discovery url
+#eureka: 
+#  client:
+#    serviceUrl: 
+#      defaultZone: http://localhost:8761/eureka/
+
+##datasource config
+#jdbc:
+#  driverClassName: com.mysql.jdbc.Driver
+#  url: jdbc:mysql://localhost:3306/dbgirl?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8
+#  username: root
+#  password: ningpai520
+#
+##mybatis config
+#mybatis:
+#  typeAliasesPackage: com.albert.app.model
+#  mapperLocations: classpath:mapper/*.xml
